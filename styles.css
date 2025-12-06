@@ -32,7 +32,7 @@ body {
  }
  /* ^stylings for nav buttons */
 
- hero {
+ .hero {
     background-image: url(img/herobanner.jpg);
     background-size: cover;
     background-position: center;
