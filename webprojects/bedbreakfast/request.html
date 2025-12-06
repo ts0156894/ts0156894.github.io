@@ -1,0 +1,73 @@
+<!--Tara Sweeney
+Bed and Breakfast Project
+October 2nd, 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/7f5bacb603.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="submission">
+  <nav><a href="index.html">Home</a> | <a href="rooms.html">Rooms</a> | <a href="request.html">Booking</a></nav>
+  <form method="GET" action="thankyou.html">
+    <fieldset>
+      <legend>Submission Form</legend>
+      <legend>
+        <p>Please fill out the below to inquire into booking:</p>
+      </legend>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" required><br>
+
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" required><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="tel">Phone Number:</label><br>
+      <input type="tel" id="tel" name="tel"><br>
+
+      <label for="contact">Best Way to Contact:</label>
+      <select id="contact" name="contact">
+        <option value="email">Email</option>
+        <option value="call">Call</option>
+        <option value="text">Text</option>
+      </select>
+
+      <legend>Bed Preference:</legend>
+
+      <input type="radio" id="1bed" name="rooming" value="1bed">
+      <label for="1bed">One Bedroom</label><br>
+
+      <input type="radio" id="2bed" name="rooming" value="2bed">
+      <label for="2bed">Two Bedroom</label><br>
+
+      <input type="radio" id="3bed" name="rooming" value="3bed">
+      <label for="3bed">Two Bed + Futon Daybed</label><br>
+
+      <legend>Preferred Amenities:</legend>
+
+      <input type="checkbox" id="option1" name="option1" value="groundfloor">
+      <label for="option1">Ground Floor Accomodations</label><br>
+
+      <input type="checkbox" id="option2" name="option2" value="spa">
+      <label for="option2">Spa Suites (limited availability)</label><br>
+
+      <input type="checkbox" id="option3" name="option3" value="gym">
+      <label for="option3">Gym Access Card</label><br>
+
+      <legend>Tell us more about your stay (optional):</legend>
+
+      <textarea name="message" rows="8" cols="90"></textarea>
+      <br><br>
+    </fieldset>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>

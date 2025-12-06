@@ -1,0 +1,211 @@
+/* Tara Sweeney
+Bed and Breakfast Project
+October 2nd, 2025 */
+
+@import url('https://fonts.googleapis.com/css2?family=Felipa&family=Fleur+De+Leah&display=swap');
+
+/* ^chosen google fonts import link, felip for general text and meie for headers*/
+
+body {
+  font-family: "Felipa", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2E0F19;
+  background-color: #F198C9;
+}
+
+/*^ background and text color accessibility tested, main font imported from google */
+
+h1,
+h2 {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #2E0F19;
+}
+
+/* ^ header font imported from google, heavy bolding for readability*/
+
+nav {
+  text-align: center;
+  background-color: #F198C9;
+  margin: 0 45% 0 45%;
+}
+
+nav a {
+  color: #280061;
+}
+
+nav a:visited {
+  color: #5E0061;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #2E0F19;
+}
+
+/* ^^^Main link color for nav, as well as color after visiting and when hovering */
+
+.return {
+  text-decoration: none;
+  background: #941054;
+  border: 1px solid;
+  padding: 8px 10px;
+  border-radius: 6px;
+  color: #000;
+  display: inline-block;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  opacity: .75;
+}
+
+/* ^Back to top button for bottom right of main page */
+
+.mainhead {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bolder;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.mainintro {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 10px;
+}
+
+/* ^^Align Header and Intro */
+
+.title {
+  border: #982A4D 3pt solid;
+  border-radius: 8px;
+  background-color: #EAB3C4;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+/* ^Rounded box on title, positioned to line up with img */
+
+.hfloat-left {
+  float: left;
+  margin-left: 4%;
+  margin-top: 10px;
+  padding-left: 6px;
+  padding-bottom: 30px;
+}
+.hfloat-right {
+  float: right;
+  margin-right: 4%;
+  margin-top: 10px;
+  padding-right: 6px;
+  padding-bottom: 30px;
+}
+
+/* ^^These classes are used for floating images on either side of the title*/
+
+.mfloat-left {
+  float: left;
+  display: fixed;
+  left: 25%;
+  margin: 0 10px 10px 0;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+/* ^This is for the floating images in the main body */
+
+.left {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  border: solid #2E0F19 4pt;
+  border-radius: 6px;
+  margin-left: 30%;
+  padding-left: 0px;
+  margin-right: 30%;
+  font-size: x-large;
+}
+
+/* ^This is so the descriptive text lines up by the photos */
+
+form {
+  text-align: center;
+  background-color: #F198C9;
+  opacity: 80%;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 125%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* ^^Alignment and sizing for request form page */
+
+.submission {
+  background-image: url(images/cherryblossom2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ^Class to add background img to request and thank you */
+
+.ty {
+  background-color: #F198C9;
+  opacity: 80%;
+}
+
+/* ^added coloring to thank you page for readability */
+
+.tpage {
+  background-image: url(images/cherryblossom1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ^Class to add background img to room table page */
+
+table {
+  margin: 20px 0px;
+  width: 50%;
+  height: 60%;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  color: white;
+  border: solid 2pt white;
+  opacity: 75%;
+}
+
+th,
+td {
+  padding: 20px 0px 20px 0px;
+}
+
+/* ^^^Table formatting to not block background image */
+
+tr:nth-child(odd) {
+  background-color: #640A36;
+}
+
+tr:nth-child(even) {
+  background-color: #8D193E;
+}
+
+/* ^^every other row pseudoclass for coloring */

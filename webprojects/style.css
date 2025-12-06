@@ -1,0 +1,46 @@
+/* Tara Sweeney
+LiveSite Css */
+
+@import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+
+body {
+    background-color: black;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Kranky", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border: 2px black;
+}
+
+.titleblock {
+    background-image: url(img/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.titletxt {
+    background-color: rgba(1, 3, 4, 0.656); 
+    padding: 5px;                              
+    border-radius: 5px;                        
+    text-align: center;    
+    margin: 2px;  
+    text-decoration: underline;
+    font-weight: bold;                 
+}
+.bodytxt {
+    background-color: rgba(1, 3, 4, 0.656); 
+    padding: 5px;                              
+    border-radius: 5px;                        
+    text-align: center;    
+    margin: 15px;  
+    margin-left: 25%;
+    margin-right: 25%;               
+}

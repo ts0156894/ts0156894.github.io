@@ -1,0 +1,185 @@
+/* Tara Sweeney, Resume Project*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+/* ^google font import link*/
+
+body {
+     background-color:#ff80c1;
+      background-image: url(img/background.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     font-family: "Tinos", serif;
+    font-weight: 400;
+     font-style: normal;
+}
+/* ^background image, background color if image does not render, google font */
+
+ nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+ }
+ /* ^positioning for nav bar */
+
+ .nav-buttons {
+    border: black 2pt solid;
+    border-radius: 8px;
+    color: black;
+    background-color: rgb(249, 193, 251);
+    padding: 3px;
+    font-weight: bold;
+ }
+ /* ^stylings for nav buttons */
+
+ hero {
+    background-image: url(img/herobanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ /*  ^hero banner styling and image*/
+
+ .hero-text {
+    background-color: rgba(254, 216, 255, 0.695); 
+    padding: 5px;                              
+    border-radius: 5px;                        
+    text-align: center;  
+    margin: 2px;  
+    text-decoration: underline;
+    font-weight: bold;                 
+}
+/* ^text in hero banner */
+
+.back-to-top {
+  background: rgb(249, 193, 251);
+  padding: 8px;
+  text-decoration: none;
+  border: 1px solid black;
+  position: fixed;   
+  bottom: 0;         
+  right: 0;       
+}
+/* back to top button fixed to bottom right */
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: x-large;
+    text-decoration: underline;
+}
+/* ^stylings for header below hero, reused on contact page */
+
+.bordered-text {
+  display: inline-block; 
+  padding: 5px 10px;    
+  border: 2px solid black; 
+  border-radius: 5px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+/*  ^border around intro paragraph and resume */
+
+.contactbox {
+    display: block; 
+    text-align: center;
+    padding: 10px;    
+    padding-bottom: 40px;
+    border: 2px solid black; 
+    border-radius: 5px;
+    height: 60vh;
+    margin: 0 11% 0 11%;
+    background-color: rgb(249, 193, 251);
+    font-weight: bold;
+}
+/* format of the box from the contact page */
+
+.contactfont {
+    font-size: large;
+}
+/* ^contact box font */
+
+.resume-container {
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 4px;
+}
+/* ^mobile margin to avoid overlap w nav */
+
+section {
+    margin-bottom: 30px;
+}
+/* ^section spacing for readability */
+
+.section-title {
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+}
+/* ^Long underline in section titles on resume main page */
+
+
+
+
+@media (min-width: 576px) {
+    nav {
+        font-size: medium;
+    }
+    .resume-header {
+    margin-left: 23%;
+    margin-right: 23%;
+    }
+    hero {
+        height: 35vh;
+    }
+    .hero-text {
+    font-size: x-large;                   
+    }
+    .contactbox {
+        height: 65vh;
+        padding-bottom: 25px;
+    }
+    .contactfont {
+    font-size: larger;
+    }
+}
+/* ^screen size increase changes text in navigation and adjusts resume header margins */
+
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+    .resume-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    .resume-header {
+    font-size: xx-large; 
+    }
+    hero {
+        height: 50vh;
+    }
+    .hero-text {
+    font-size: xx-large;                   
+    }
+    .contactbox {
+        padding-bottom: 30px;
+    }
+    .contactfont {
+    font-size: x-large;
+    }
+}
+/* ^changes navigation to horizontal row and adjusts bulk of resume to fill larger screen */
+
+
+
+
+
+
