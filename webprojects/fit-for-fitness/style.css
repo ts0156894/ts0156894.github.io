@@ -1,0 +1,63 @@
+body {
+  background-image: url(img/poolbackground.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.myheader {
+    color: white;
+    font-weight: bold;
+    background-color: #008db1;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 13%;
+ }
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 2px;
+    left: 2px;
+    max-width: 12%;
+ }
+
+ .nav-buttons {
+    border: #0e0243 2pt solid;
+    border-radius: 8px;
+    color: #0e0243;
+    font-weight: bold;
+    background-color: #8acfe4b4;
+    padding: 3px;
+    align-items: center;
+ }
+
+ .tbold {
+    font-weight: bold;
+ }
+
+.c1 {
+        display: block;
+    }
+
+.c2 {
+        display: none;
+    }
+
+ @media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+    .c1 {
+        display: none;
+    }
+    .c2 {
+        display: inline-block;
+        text-align: center;
+         margin-left: 30%;
+        margin-right: 30%;
+    }
+ }
+

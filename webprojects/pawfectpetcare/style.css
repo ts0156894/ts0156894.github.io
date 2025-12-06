@@ -1,0 +1,96 @@
+
+
+
+body {
+    background-color: rgb(37, 19, 0);
+    background-image: url(img/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    background-color: rgb(37, 19, 0);
+    z-index: 3;
+}
+
+.titleblock {
+    background-image: url(img/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+ }
+
+.titletxt {
+    background-color: rgba(37, 19, 0, 0.732); 
+    padding: 5px;                              
+    border-radius: 5px;                        
+    text-align: center;    
+    margin: 2px;  
+    text-decoration: underline;
+    font-weight: bold;                 
+}
+
+.bodytxt {
+    background-color: rgba(37, 19, 0, 0.732); 
+    padding: 5px;                              
+    border-radius: 5px;                        
+    text-align: center;    
+    margin: 15px;  
+    margin-left: 25%;
+    margin-right: 25%;               
+}
+
+.crsize {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.crtxt {
+    background-color: rgba(240, 248, 255, 0.559);
+}
+
+.mrgn  {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 35px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.accordion {
+    --bs-accordion-btn-bg: rgba(37, 19, 0); 
+    --bs-accordion-active-bg:rgba(37, 19, 0); 
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-color: #f8f9fa; 
+    --bs-accordion-btn-focus-box-shadow: none; 
+    --bs-accordion-bg: #f8f9fa;
+    --bs-accordion-color: #161719;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.paws {
+    width:80%;
+    max-height: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(37, 19, 0, 0.732); 
+}

@@ -1,0 +1,104 @@
+/* Tara Sweeney
+ Music Artist Project
+ 10/27/2025 */
+
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+ body {
+    background-color: #02101b;
+    font-family: "Iceberg", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+ }
+
+ nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .nav-buttons {
+    border: #0e0243 2pt solid;
+    border-radius: 8px;
+    color: #0e0243;
+    background-color: #8acfe4b4;
+    padding: 3px;
+ }
+
+ hero {
+    background-image: url(img/mikubanner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .hero-text {
+    background-color: rgba(115, 167, 210, 0.434); 
+    padding: 5px;                              
+    border-radius: 5px;                        
+    text-align: center;    
+    margin: 2px;  
+    text-decoration: underline;
+    font-weight: bold;                 
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: #0e0243 2pt solid;
+    margin: 5% 3%;
+    padding-top: 1px;
+    text-align: center;
+    font-size: medium;
+}
+
+.albumart {
+    align-self: center;
+    width: 35%;
+    padding: 2px;
+}
+
+.cont1 {
+    background-color:#141f45;
+}
+
+.cont2 {
+    background-color:#292b2f;
+}
+
+.cont3 {
+    background-color:#4d0404;
+}
+
+#watch {
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    nav {
+        flex-direction: row;
+    }
+    #watch {
+    width: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    container {
+        flex-direction: row;
+        font-size: larger;
+    }
+    #watch {
+        display: flex;
+        margin: 5% 3%;
+        width: 50%;
+    }
+    h2 {
+        margin: 2% 3%;
+    }
+}

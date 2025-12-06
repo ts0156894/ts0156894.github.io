@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+h1, nav {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+p {
+  font-family: "Zalando Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+    background-color: #03000e;
+}
+
+.main {
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    border: solid 4pt;
+    border-radius: 4px;
+    background-color:rgb(179, 245, 255);
+    width: 470px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.map {
+    display: block;
+    width: 470px;
+    align-items: center;
+    margin-left: 6px;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.main2 {
+    display: block;
+    text-align: center;
+    font-size: xxx-large;
+    text-decoration: underline;
+    border: solid 4pt;
+    border-radius: 4px;
+    background-color:rgb(179, 245, 255);
+    width: 470px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+}
+
+.lakeim {
+   width: 470px; 
+}
+
+.hero {
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    height: 40vh;
+    max-width: 475px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+ }
+
+ .hero2 {
+    background-image: url(img/lakeside.png);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    height: 40vh;
+    max-width: 475px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+ }
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 6px;
+    left: 25%;
+    justify-content: space-evenly;
+ }
+
+.nav-buttons {
+    border: #0e0243 2pt solid;
+    border-radius: 8px;
+    color: #0e0243;
+    background-color: #8acfe4b4;
+    padding: 3px;
+ }
+
+ .nav-buttons2 {
+    border: #000000 2pt solid;
+    border-radius: 8px;
+    color: #000000;
+    background-color: #feffff;
+    padding: 3px;
+ }
+
+.svpage {
+  background-image: url(img/water.gif);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.price {
+    display: inline-block;
+    text-align: center;
+    font-size: xxx-large;
+    text-decoration: underline;
+    background-color:rgb(255, 255, 255);
+    width: 475px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 3px;
+}
+
+.bait {
+    display: flex;
+    flex-direction: column;
+    max-width: 475px;
+    height: 900px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.bait2 {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.reel-cont {
+    background-image: url(img/reel.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 475px;
+    height: 475;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.reel-text {
+    padding: 5px;                       
+    text-align: left;    
+    margin: 2px;  
+    text-decoration: underline;
+    font-weight: bold;                 
+}
+
+.treel {
+    float: left;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+footer {
+    background-color: rgba(56, 52, 83, 0.734);
+    color: white;
+    border: solid white;
+    font-size: small;
+    padding: 2px;
+    width: 469px;
+    margin-bottom: 2px;
+}
+
+footer a {
+    color: rgb(76, 136, 255);
+}
+
+
+@media (min-width: 576px) {
+    .hero, .hero2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main, .main2, .price, .map {
+        margin-left: 5%;
+        width: 570px;
+        align-items: center;
+    }
+    .bait, .reel-cont {
+        margin-left: 13%;
+        width: 575px;
+        max-width: 575px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bait {
+        display: none;
+    }
+    .bait2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+    flex-direction: column;
+    top: 3px;
+    left: 3px;
+    }
+    .main, .main2, .price, .map {
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 760px;
+        align-items: center;
+    }
+    .bait {
+        width: 760px;
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .reel-cont {
+        min-width: 1100px;
+        max-width: 1100px;
+        min-height: 850px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: stretch;
+    }
+    .reel-text {
+        font-size: x-large;
+    }
+    .treel {
+        height: 350px;
+        width: auto;
+        margin-top: 300px;;
+    }
+}
