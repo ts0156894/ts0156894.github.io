@@ -124,6 +124,32 @@ section {
 }
 /* ^Long underline in section titles on resume main page */
 
+.aboutphoto {
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 10px;
+}
+/* ^about page photo centered rounded corners */
+
+.aboutcontainer {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/* ^container from about page */
+
+.aboutblock {
+    background-color: rgb(249, 193, 251);
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+/* ^decoration for about page block */
+
 
 
 
@@ -149,7 +175,7 @@ section {
     font-size: larger;
     }
 }
-/* ^screen size increase changes text in navigation and adjusts resume header margins */
+/* ^screen size increase changes text in navigation, adjusts resume header text, margins*/
 
 @media (min-width: 768px) {
     nav {
@@ -175,8 +201,24 @@ section {
     .contactfont {
     font-size: x-large;
     }
+    .aboutcontainer {
+        max-width: 1200px;
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+    }
+    .aboutphoto {
+        max-width: 200px;
+        flex: 0 0 30%;
+        height: 300px;
+    }
+    .aboutblock {
+        flex: 1;
+        margin-top: 0;
+        height: 300px;
+    }
 }
-/* ^changes navigation to horizontal row and adjusts bulk of resume to fill larger screen */
+/* ^changes navigation to horizontal row, hero and text adjustments, applies flex to about page and adjusts bulk of resume to fill larger screen */
 
 
 
